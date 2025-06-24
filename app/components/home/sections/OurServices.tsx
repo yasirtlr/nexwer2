@@ -7,7 +7,7 @@ import Link from "next/link";
 export const services = [
     {
       id: "1",
-      image: "/assets/img/srv-01.jpg",
+      image: "/assets/img/PIMS-Integrations.jpg",
       title: "PIMS Integrations",
       url: "#",
       description:
@@ -15,7 +15,7 @@ export const services = [
     },
     {
       id: "2",
-      image: "/assets/img/srv-02.jpg",
+      image: "/assets/img/E-commerce-for-Veterinary-Clinics.jpg",
       title: "E-commerce for Veterinary Clinics",
       url: "#",
       description:
@@ -23,7 +23,7 @@ export const services = [
     },
     {
       id: "3",
-      image: "/assets/img/srv-03.jpg",
+      image: "/assets/img/Online-Booking-Portals.jpg",
       title: "Online Booking Portals",
       url: "#",
       description:
@@ -31,7 +31,7 @@ export const services = [
     },
     {
       id: "4",
-      image: "/assets/img/srv-04.jpg",
+      image: "/assets/img/Client-Portal-Development.jpg",
       title: "Client Portal Development",
       url: "#",
       description:
@@ -39,7 +39,7 @@ export const services = [
     },
     {
       id: "5",
-      image: "/assets/img/srv-05.jpg",
+      image: "/assets/img/Custom-Mini-Apps-for-Clinics.jpg",
       title: "Custom Mini-Apps for Clinics",
       url: "#",
       description:
