@@ -8,26 +8,25 @@ const HeroSection = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const contentArray = [
-    "Custom Software Development",
-"Mobile App Development",
-"Web Development",
-"Cloud Solutions",
+    "Smart Tech for Every Need",
+"Seamless, Smart Systems",
+"Scalable Software Tools",
 "AI & Machine Learning",
-"IT Consulting",
+"Digital Data Analysis",
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
       currentIndexRef.current = (currentIndexRef.current + 1) % contentArray.length;
       setSpanContent(contentArray[currentIndexRef.current]);
-    }, isHovered ? 100 : 1000); // Faster change on hover
+    }, isHovered ? 200 : 1000); // Faster change on hover
 
     return () => clearInterval(interval);
   }, [isHovered]);
 
   return (
     <motion.section
-      className="bnrnmn relative flex items-center py-24 text-black h-[70vh] xl:h-screen"
+      className="bnrnmn relative flex items-center py-24 text-black h-[70vh] xl:h-screen z-0"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
@@ -66,7 +65,7 @@ const HeroSection = () => {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-         Powering Future with <br />
+        Powering the Future with <br />
           <span className="text-primary relative linbsx">
             {spanContent}
           </span>

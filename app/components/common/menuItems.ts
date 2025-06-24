@@ -13,32 +13,27 @@ export const menuItems = [
     item: "SERVICES",
     children: [
       {
-        item: "Custom Software Development",
+        item: "PIMS Integrations",
     
         url: "#",
       },
       {
-        item: "Mobile App Development",
+        item: "E-commerce for Veterinary Clinics",
   
         url: "#",
       },
       {
-        item: "Web Development",
+        item: "Online Booking Portals",
   
         url: "#",
       },
       {
-        item: "Cloud Solutions",
+        item: "Client Portal Development",
   
         url: "#",
       },
       {
-        item: "AI & Machine Learning",
-  
-        url: "#",
-      },
-      {
-        item: "IT Consulting",
+        item: "Custom Mini-Apps for Clinics",
   
         url: "#",
       },

@@ -8,50 +8,42 @@ export const services = [
     {
       id: "1",
       image: "/assets/img/srv-01.jpg",
-      title: "Custom Software Development",
+      title: "PIMS Integrations",
       url: "#",
       description:
-        "Develop tailored software solutions to streamline operations, enhance efficiency, and drive business growth.",
+        "Seamlessly connect your clinic’s existing systems with top veterinary software",
     },
     {
       id: "2",
       image: "/assets/img/srv-02.jpg",
-      title: "Mobile App Development",
+      title: "E-commerce for Veterinary Clinics",
       url: "#",
       description:
-        "Create high-performance mobile applications that deliver seamless user experiences across iOS and Android.",
+        "Expand your services online with a secure and scalable e-commerce solution",
     },
     {
       id: "3",
       image: "/assets/img/srv-03.jpg",
-      title: "Web Development",
+      title: "Online Booking Portals",
       url: "#",
       description:
-        "Design and develop responsive, secure, and scalable websites tailored to meet your business goals.",
+        "Make it easy for pet parents to schedule appointments",
     },
     {
       id: "4",
       image: "/assets/img/srv-04.jpg",
-      title: "Cloud Solutions",
-      url: "/cloud-solutions",
+      title: "Client Portal Development",
+      url: "#",
       description:
-        "Leverage cloud computing to enhance security, scalability, and efficiency while reducing infrastructure costs.",
+        "Give your clients control with a secure, personalized portal",
     },
     {
       id: "5",
       image: "/assets/img/srv-05.jpg",
-      title: "AI & Machine Learning",
+      title: "Custom Mini-Apps for Clinics",
       url: "#",
       description:
-        "Harness the power of AI and machine learning to automate processes, gain insights, and improve decision-making.",
-    },
-    {
-      id: "6",
-      image: "/assets/img/srv-06.jpg",
-      title: "IT Consulting",
-      url: "#",
-      description:
-        "Get expert IT consulting services to optimize technology adoption, improve cybersecurity, and drive digital transformation.",
+        "Want a branded mobile experience? We can build lightweight, powerful apps",
     }
 ];
 
@@ -150,7 +142,7 @@ const OurServices = () => {
               </div>
                 <div className="group relative mt-auto">
                
-                <Link href={service.url} > <h3 className="text-xl max-w-[14ch] macst transition-all duration-300 ease-in-out group-hover:text-primary leading-none mb-5">
+                <Link href={service.url} > <h3 className="text-xl max-w-[14ch] macst transition-all duration-300 ease-in-out group-hover:text-secondary text-[#023a53] leading-none mb-5">
                     {service.title}
                   </h3>
                  </Link>
