@@ -73,7 +73,7 @@ const OurServices = () => {
         >
           <div className="mb-5 flex items-center gap-2 lg:mb-[30px]">
             <h2 className="text-2xl font-[400] leading-[1.5]">Our Services</h2>
-            <div className="size-3 bg-primary md:size-4 lg:size-5"></div>
+           {/*  <div className="size-3 bg-primary md:size-4 lg:size-5"></div> */}
           </div>
         </motion.div>
       </div>

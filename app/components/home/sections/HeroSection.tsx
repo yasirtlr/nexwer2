@@ -66,7 +66,7 @@ const HeroSection = () => {
           onMouseLeave={() => setIsHovered(false)}
         >
         Powering the Future with <br />
-          <span className="text-primary relative linbsx">
+          <span className="relative linbsx">
             {spanContent}
           </span>
         </motion.h1>
