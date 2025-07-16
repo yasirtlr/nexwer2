@@ -7,45 +7,44 @@ export const menuItems = [
   },
   {
     item: "ABOUT",
-    url: "#",
+    url: "/about",
   },
   {
     item: "SERVICES",
     children: [
       {
-        item: "PIMS Integrations",
+       item: "Custom Software Development",
     
-        url: "#",
+        url: "/#1",
       },
       {
-        item: "E-commerce for Veterinary Clinics",
-  
-        url: "#",
+         item: "Mobile App Development",
+        url: "/#2",
       },
       {
-        item: "Online Booking Portals",
+         item: "Online Booking Portals",
   
-        url: "#",
+        url: "/#3",
       },
       {
-        item: "Client Portal Development",
+         item: "Cloud Solutions",
   
-        url: "#",
+        url: "/#4",
       },
       {
-        item: "Custom Mini-Apps for Clinics",
+           item: "AI & Machine Learning",
   
-        url: "#",
+        url: "/#5",
       },
     ],
     url: "#",
   },
   {
     item: "Projects",
-    url: "#",
+    url: "/projects",
   },
   {
-    item: "Contact",
-    url: "#",
+    item: "Veterinary Software Solutions",
+    url: "veterinary-software-solutions",
   },
 ];

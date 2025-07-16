@@ -71,8 +71,11 @@ const OurServices = () => {
             }, // Slide up and fade in
           }}
         >
-          <div className="mb-5 flex items-center gap-2 lg:mb-[30px]">
-            <h2 className="text-2xl font-[400] leading-[1.5]">Our Services</h2>
+          <div className="mb-5 items-center gap-2  ">
+            <h2 className="text-[50px] font-[400] leading-[1.1] mb-[30px]">Empowering Veterinary Clinics with Integrated, Scalable & Client-Centric Technology</h2>
+            <p>
+At *Nexwerx*, we specialize in building modern, intuitive, and efficient digital solutions tailored to the needs of veterinary clinics and animal hospitals. With deep expertise in veterinary practice workflows and integration with major PIMS (Practice Information Management Systems), we help clinics enhance their operational efficiency, client engagement, and online presence.
+</p>
            {/*  <div className="size-3 bg-primary md:size-4 lg:size-5"></div> */}
           </div>
         </motion.div>

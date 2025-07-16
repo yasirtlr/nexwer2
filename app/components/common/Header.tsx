@@ -221,7 +221,7 @@ const Header = () => {
            
           </nav>
           <Link
-              href="/lets-talk"
+              href="/contact"
               className="hover:bg-prtext-primary group hidden items-center space-x-2 rounded-full border border-primary px-6 py-2 text-primary transition duration-300
                ease-in hover:text-black hover:text-primary hover:shadow-lg lg:flex"
             >

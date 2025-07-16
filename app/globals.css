@@ -37,6 +37,9 @@
 .section-spacing {
   @apply py-[60px] lg:py-[90px] xl:py-[100px] 2xl:py-[120px];
 }
+p:not(:last-child) {
+  margin-bottom: 10px;
+}
 /* @media (prefers-color-scheme: dark) {
   :root {
   --primary: #023a53;
