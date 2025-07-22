@@ -40,6 +40,9 @@
 p:not(:last-child) {
   margin-bottom: 10px;
 }
+.sbttl {
+@apply text-[25px] lg:text-[40px] font-bold ;
+}
 /* @media (prefers-color-scheme: dark) {
   :root {
   --primary: #023a53;

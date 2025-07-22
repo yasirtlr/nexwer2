@@ -15,7 +15,7 @@ export const menuItems = [
       {
        item: "Custom Software Development",
     
-        url: "/#1",
+        url: "/custom-software-development",
       },
       {
          item: "Mobile App Development",

@@ -1,13 +1,13 @@
 import React from 'react'
 import HeroSection from './sections/HeroSection'
-import Clients from './sections/Clients'
 import HomeServ from './sections/HomeServ'
+import OurClients from './sections/OurClients'
 
 const Index = () => {
   return (
     <>
         <HeroSection/>
-        <Clients/>
+        <OurClients/>
         <HomeServ/>
     </>
   )
