@@ -10,7 +10,7 @@ const FirstSection = () => {
             At Nexwerx, we believe that software should fit your business — not the other way around.
           </p>
           <p className="text-gray-600 mb-6">
-            Whether you're a growing startup or a well-established enterprise, your business is unique. Your goals, workflows, and challenges deserve tailored software solutions.
+            Whether you&apos;re a growing startup or a well-established enterprise, your business is unique. Your goals, workflows, and challenges deserve tailored software solutions.
           </p>
           <h2 className="sbttl mt-5">Why Custom Software?</h2>
           <p className="text-gray-600 mb-4">
