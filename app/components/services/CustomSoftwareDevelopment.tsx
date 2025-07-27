@@ -2,8 +2,6 @@
 'use client';
 
 
-import { FaWhatsapp } from 'react-icons/fa';
-
 
 const CustomSoftwareDevelopment: React.FC = () => {
 
