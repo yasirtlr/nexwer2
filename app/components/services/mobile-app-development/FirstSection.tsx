@@ -7,29 +7,32 @@ const FirstSection = () => {
   <div className="container grid md:grid-cols-2 gap-16 items-start">
         <div>
           <p className="text-gray-600 mb-4">
-            At Nexwerx, we believe that software should fit your business — not the other way around.
+          Your customers are on mobile. Your team is on mobile. The world is mobile — and your business should be too.
+
+
           </p>
           <p className="text-gray-600 mb-6">
-            Whether you&apos;re a growing startup or a well-established enterprise, your business is unique. Your goals, workflows, and challenges deserve tailored software solutions.
+         At Nexwerx, we design and build mobile apps that are not just beautiful and fast — but purposeful. Whether it&apos;s iOS, Android, or cross-platform, we create apps that solve real problems, drive engagement, and grow with your business.
           </p>
-          <h2 className="sbttl mt-5">Why Custom Software?</h2>
+          <h2 className="sbttl mt-5">Built Around Your Users</h2>
           <p className="text-gray-600 mb-4">
-            Off-the-shelf tools force you to adapt your processes to them. Custom software adapts to you — growing and evolving as your business does.
+         We don’t just code — we understand your users. From smooth interfaces to seamless functionality, we make sure your app feels natural and intuitive in every tap and swipe.
+
           </p>
+           <h2 className="thrdttl mt-5">Our Process</h2>
           <ul className="space-y-3 text-gray-700 list-inside list-disc mb-6">
-            <li>Streamline operations</li>
-            <li>
-              Improve efficiency
-             <p> Custom software automates repetitive workflows, eliminates double-entry, and provides seamless access to relevant data.</p>
-            </li>
-            <li>Enhance customer experience</li>
-            <li>Automate repetitive tasks</li>
-            <li>Get real-time insights</li>
+            <li>Understand your goals</li>
+ <li>Design for real-world use </li>
+ <li>Develop with performance in mind</li>
+ <li>Test, launch, and support
+</li>
+<p>Whether you’re launching a new idea, empowering your workforce, or enhancing customer experience — we’re with you every step of the way.
+</p>
           </ul>
         </div>
         <div className="w-full h-full">
               <Image
-                          src="/assets/img/websit.jpg"
+                          src="/assets/img/srv-02.jpg"
                           alt="E-commerce Platform"
                           width={1000} height={1000}
                           className="rounded-md shadow-md object-cover w-full h-auto"

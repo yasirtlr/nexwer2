@@ -40,7 +40,7 @@ const BuildWithYou: React.FC = () => {
                 key={index}
                 className="flex items-center p-6 bg-white  rounded-xl shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="text-blue-600 text-xl mr-4 mt-1">{item.icon}</div>
+                <div className="text-secondary text-xl mr-4 mt-1">{item.icon}</div>
                 <p className="text-gray-800 font-medium">{item.title}</p>
               </div>
             ))}

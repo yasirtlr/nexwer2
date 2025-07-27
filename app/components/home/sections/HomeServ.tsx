@@ -9,7 +9,7 @@ export const services = [
       id: "1",
      image: "/assets/img/srv-01.jpg",
  title: "Custom Software Development",
-      url: "#",
+      url: "/custom-software-development",
       description:
             "Develop tailored software solutions to streamline operations, enhance efficiency, and drive business growth.",
     },
@@ -17,7 +17,7 @@ export const services = [
       id: "2",
        image: "/assets/img/srv-02.jpg",
      title: "Mobile App Development",
-      url: "#",
+      url: "/mobile-app-development",
       description:
        "Create high-performance mobile applications that deliver seamless user experiences across iOS and Android.",
     },
@@ -25,7 +25,7 @@ export const services = [
       id: "3",
       image: "/assets/img/srv-03.jpg",
       title: "Online Booking Portals",
-      url: "#",
+      url: "/online-booking-portals",
       description:
        "Design and develop responsive, secure, and scalable websites tailored to meet your business goals.",
     },
@@ -33,7 +33,7 @@ export const services = [
       id: "4",
     image: "/assets/img/srv-04.jpg",
   title: "Cloud Solutions",
-      url: "#",
+      url: "/cloud-solutions",
       description:
     "Leverage cloud computing to enhance security, scalability, and efficiency while reducing infrastructure costs.",
     },
@@ -41,7 +41,7 @@ export const services = [
       id: "5",
    image: "/assets/img/srv-05.jpg",
        title: "AI & Machine Learning",
-      url: "#",
+      url: "/ai-machine-learning",
       description:
        "Harness the power of AI and machine learning to automate processes, gain insights, and improve decision-making.",
     }
@@ -136,32 +136,30 @@ const HomeServ = () => {
                 index % 2 === 1 ? "pr-[60px]" : "pl-[60px]"
               }`}>
               <div className="mb-3 flex">
-                <span className="text-gray-300  font-lig text-center text-[30px]">0{service.id}</span>
+                <span className="text-gray-300  font-semibold text-center text-[60px]">0{service.id}</span>
               </div>
                 <div className="group relative mt-auto">
                
-                <Link href={service.url} > <h3 className="text-xl max-w-[14ch] macst transition-all duration-300 ease-in-out group-hover:text-secondary text-[#023a53] leading-none mb-5">
+                <Link href={service.url} > <h3 className="sbttl max-w-[14ch] macst transition-all duration-300 ease-in-out group-hover:text-secondary text-[#023a53] leading-none mb-5">
                     {service.title}
                   </h3>
                  </Link>
                  <p
-                    className={`mb-2 text-md leading-lh1p4 font-light text-[#000]`}
+                    className={`mb-2 text-[18px] leading-lh1p4 font-light text-[#000]`}
                   >
                     {service.description}
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 lg:gap-7">
                
-                 {/*  <div className="srvbt mb-5 flex flex-wrap gap-2 xl:mb-[4em]">
-                    {service.buttonTexts.map((item, index) => (
-                      <button
-                        className="rounded-full border px-4 py-3 pmac text-font19 font-[500] text-gray-500 duration-200 ease-in hover:border-primary hover:text-black"
-                        key={index}
+                 <div className="srvbt flex flex-wrap gap-2">
+                 
+                      <Link href={service.url}
+                        className="rounded-full border px-6 py-3 pmac text-font19 font-[500] text-gray-500 duration-200 ease-in hover:border-primary hover:text-black"
                       >
-                        {item.title}
-                      </button>
-                    ))}
-                  </div> */}
+                       Read More
+                      </Link>
+                  </div>
                 </div>
               </div>
 

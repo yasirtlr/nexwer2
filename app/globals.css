@@ -41,7 +41,10 @@ p:not(:last-child) {
   margin-bottom: 10px;
 }
 .sbttl {
-@apply text-[25px] lg:text-[40px] font-bold ;
+@apply text-[25px] lg:text-[40px] font-semibold ;
+}
+.thrdttl {
+@apply text-[18px] lg:text-[30px] font-semibold ;
 }
 /* @media (prefers-color-scheme: dark) {
   :root {

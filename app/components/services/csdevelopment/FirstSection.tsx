@@ -29,7 +29,7 @@ const FirstSection = () => {
         </div>
         <div className="w-full h-full">
               <Image
-                          src="/assets/img/websit.jpg"
+                          src="/assets/img/srv-01.jpg"
                           alt="E-commerce Platform"
                           width={1000} height={1000}
                           className="rounded-md shadow-md object-cover w-full h-auto"

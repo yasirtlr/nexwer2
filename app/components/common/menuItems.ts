@@ -19,22 +19,22 @@ export const menuItems = [
       },
       {
          item: "Mobile App Development",
-        url: "/#2",
+        url: "/mobile-app-development",
       },
       {
          item: "Online Booking Portals",
   
-        url: "/#3",
+        url: "/online-booking-portals",
       },
       {
          item: "Cloud Solutions",
   
-        url: "/#4",
+        url: "/cloud-solutions",
       },
       {
            item: "AI & Machine Learning",
   
-        url: "/#5",
+        url: "/ai-machine-learning",
       },
     ],
     url: "#",
@@ -45,6 +45,6 @@ export const menuItems = [
   },
   {
     item: "Veterinary Software Solutions",
-    url: "veterinary-software-solutions",
+    url: "/veterinary-software-solutions",
   },
 ];
