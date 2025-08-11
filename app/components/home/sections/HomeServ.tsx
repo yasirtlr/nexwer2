@@ -7,43 +7,43 @@ import Link from "next/link";
 export const services = [
     {
       id: "1",
-     image: "/assets/img/srv-01.jpg",
+     image: "/assets/img/001.jpg",
  title: "Custom Software Development",
       url: "/custom-software-development",
       description:
-            "Develop tailored software solutions to streamline operations, enhance efficiency, and drive business growth.",
+            "Every business is unique your software should be too. We build custom solutions that simplify your workflow, boost productivity, and drive real results",
     },
     {
       id: "2",
-       image: "/assets/img/srv-02.jpg",
+       image: "/assets/img/002.jpg",
      title: "Mobile App Development",
       url: "/mobile-app-development",
       description:
-       "Create high-performance mobile applications that deliver seamless user experiences across iOS and Android.",
+       "Need an app that users actually love to use? We build sleek, high-performing mobile apps for both iOS and Android, designed to be fast, intuitive, and built to scale.",
     },
     {
       id: "3",
-      image: "/assets/img/srv-03.jpg",
+      image: "/assets/img/003.jpg",
       title: "Online Booking Portals",
       url: "/online-booking-portals",
       description:
-       "Design and develop responsive, secure, and scalable websites tailored to meet your business goals.",
+       "Make bookings easy for your customers and even easier for you. We create sleek, mobile-friendly portals that are secure, fast, and scalable. Perfectly tailored to meet your business needs and goals.",
     },
     {
       id: "4",
-    image: "/assets/img/srv-04.jpg",
+    image: "/assets/img/004.jpg",
   title: "Cloud Solutions",
       url: "/cloud-solutions",
       description:
-    "Leverage cloud computing to enhance security, scalability, and efficiency while reducing infrastructure costs.",
+    "Move your business to the cloud with confidence. We help you boost security, scale effortlessly, and streamline operations all while cutting down on infrastructure costs.",
     },
     {
       id: "5",
-   image: "/assets/img/srv-05.jpg",
+   image: "/assets/img/005.jpg",
        title: "AI & Machine Learning",
       url: "/ai-machine-learning",
       description:
-       "Harness the power of AI and machine learning to automate processes, gain insights, and improve decision-making.",
+       "Transform your business with AI-driven intelligence. We build smart systems that automate, analyze, and adapt so you can stay ahead of the curve.",
     }
 ];
 
@@ -105,7 +105,7 @@ const HomeServ = () => {
               }`}
             >
               <motion.div
-                className=""
+                className="h-[250px] md:h-full relative"
                 variants={{
                   hidden: { y: 50, opacity: 0 }, // Start below and fade in
                   visible: {
@@ -114,8 +114,9 @@ const HomeServ = () => {
                     transition: { duration: 1, delay: 0.2 },
                   },
                 }}
-              ><Link href={service.url} >
+              ><Link className='h-full absolute w-full' href={service.url} >
                 <motion.img
+                className='absolute h-full w-full object-cover'
                   src={service.image}
                   alt={service.title}
                   // className="h-full object-cover objectstm"

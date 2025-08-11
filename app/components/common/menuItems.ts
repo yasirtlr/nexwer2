@@ -39,10 +39,10 @@ export const menuItems = [
     ],
     url: "#",
   },
-  {
+/*   {
     item: "Projects",
     url: "/projects",
-  },
+  }, */
   {
     item: "Veterinary Software Solutions",
     url: "/veterinary-software-solutions",

@@ -2,36 +2,59 @@
 
 import Image from 'next/image';
 import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
 
 const clients = [
-  { name: 'Google', logo: '/assets/img/client/cl-01.svg' },
-  { name: 'Google', logo: '/assets/img/client/cl-02.svg' },
-  { name: 'Google', logo: '/assets/img/client/cl-03.svg' },
-  { name: 'Google', logo: '/assets/img/client/cl-04.svg' },
-{ name: 'Google', logo: '/assets/img/client/cl-01.svg' },
-  { name: 'Google', logo: '/assets/img/client/cl-02.svg' },
+  { name: 'fortizo', logo: '/assets/img/client/fortizo.png' },
+  { name: 'modernvet', logo: '/assets/img/client/modernvet.png' },
+  { name: 'seekers', logo: '/assets/img/client/seekers.png' },
+  { name: 'floof', logo: '/assets/img/client/floof.png' },
+  { name: 'blusky', logo: '/assets/img/client/blusky.png' },
+  { name: 'seekers', logo: '/assets/img/client/seekers.png' },
 ];
 
 const OurClients: React.FC = () => {
   return (
     <section className="bg-white py-16 px-6">
-      <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 items-start">
-        <div className="col-span-1 sm:col-span-2 md:col-span-1 ">
-          <h2 className="text-xl font-semibold mb-2">Our clients</h2>
-          <p className="text-[70px] leading-[60px] font-bold text-gray-300 mt-[100px]">Pleasure to work with</p>
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+        {/* Left Side */}
+        <div>
+          <h2 className="text-2xl font-[400] leading-[1.5] mb-2">Our clients</h2>
+          <p className="text-[20px] leading-[16px] font-light text-gray-300">
+            Pleasure to work with
+          </p>
         </div>
-        <div className="col-span-1 sm:col-span-2 md:col-span-2 grid grid-cols-2 sm:grid-cols-2 gap-[30px] ">
-          {clients.map((client) => (
-            <div key={client.name} className="flex items-center justify-center">
-              <Image
-                src={client.logo}
-                alt={client.name}
-                width={250}
-                height={100}
-                className="h-6 sm:h-[100px] object-contain"
-              />
-            </div>
-          ))}
+
+        {/* Right Side - Slider */}
+        <div className="col-span-2">
+          <Swiper
+            modules={[Autoplay]}
+            spaceBetween={30}
+            slidesPerView={2}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            breakpoints={{
+              640: { slidesPerView: 3 },
+              1024: { slidesPerView: 4,  spaceBetween: 50 },
+            }}
+            loop
+          >
+            {clients.map((client, index) => (
+              <SwiperSlide key={index} className="flex items-center justify-center">
+                <Image
+                  src={client.logo}
+                  alt={client.name}
+                  width={200}
+                  height={80}
+                  className="h-16 sm:h-[100px] object-contain"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </section>

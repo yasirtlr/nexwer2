@@ -68,14 +68,14 @@ const VeterinarySolutions = () => {
           return (
             <div
               key={idx}
-              className={`flex flex-col md:flex-row items-center gap-8 border-gray-300 border  ${
+              className={`flex flex-col md:flex-row items-center gap-8 lg:gap-[80px]   ${
                 isEven ? 'md:flex-row-reverse pl-[30px]' : ''
               }`}
             >
               <Image
                 src={item.icon}
                 alt={item.title} width={1000} height={1000}
-                className="w-[30%] h-full"
+                className="w-[40%] h-full"
               />
               <div className="flex-1">
                 <h3 className="text-[40px] font-semibold mb-3">{item.title}</h3>
