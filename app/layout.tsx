@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Lexend } from "next/font/google";
 import "./globals.css";
-import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
+import HeaderOne from "./components/common/HeaderOne";
 
 const lexend = Lexend({
   variable: "--font-lexend",
@@ -24,7 +24,7 @@ export default function RootLayout({
       <body
         className={`${lexend.variable} antialiased`}
       >
-        <Header/>
+        <HeaderOne/>
         {children}
         <Footer/>
       </body>
