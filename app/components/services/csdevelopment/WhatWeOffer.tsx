@@ -9,27 +9,27 @@ interface OfferItem {
 
 const offers: OfferItem[] = [
   {
-    icon: <FaLightbulb className="text-black text-2xl" />,
+    icon: <FaLightbulb className="text-secondary text-2xl" />,
     title: 'Discovery & Consultation',
     description: 'We listen. We ask questions. We understand your pain points, goals, and existing systems before writing a single line of code.',
   },
   {
-    icon: <FaUsers className="text-black text-2xl" />,
+    icon: <FaUsers className="text-secondary text-2xl" />,
     title: 'User-Centered Design',
     description: 'Your team will love using the software — because it’s designed with them in mind. Simple, intuitive, and frustration-free.',
   },
   {
-    icon: <FaCogs className="text-black text-2xl" />,
+    icon: <FaCogs className="text-secondary text-2xl" />,
     title: 'Agile Development',
     description: 'We work in short cycles with frequent feedback. You see progress, give input, and stay in control throughout the project.',
   },
   {
-    icon: <FaPlug className="text-black text-2xl" />,
+    icon: <FaPlug className="text-secondary text-2xl" />,
     title: 'Seamless Integration',
     description: 'Whether you use CRM tools, ERPs, or other platforms — we make sure your custom software plays well with your existing tech.',
   },
   {
-    icon: <FaLifeRing className="text-black text-2xl" />,
+    icon: <FaLifeRing className="text-secondary text-2xl" />,
     title: 'Reliable Support & Maintenance',
     description: 'Our relationship doesn’t end at delivery. We’re always here to ensure your software continues to perform at its best.',
   },
@@ -48,11 +48,11 @@ const WhatWeOffer: React.FC = () => {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {offers.map((item, index) => (
             <div key={index} className="rounded-2xl p-8 transition-transform hover:-translate-y-2 border border-gray-300 bg-white">
-              <div className="w-12 h-12 flex items-center justify-center rounded-full mb-4 text-secondary">
+              <div className="w-12 h-12 flex items-center justify-center rounded-full mb-4 text-secondary mbxs">
                 {item.icon}
               </div>
-              <h3 className="text-[24px] font-semibold mb-2">{item.title}</h3>
-              <p className="text-sm opacity-90">{item.description}</p>
+              <h3 className="text-[20px] font-medium mb-2">{item.title}</h3>
+              <p className="text-[16px] opacity-90">{item.description}</p>
             </div>
           ))}
         </div>
