@@ -4,7 +4,7 @@ import React from "react";
 
 const NexwerxIntro = () => {
   return (
-    <section className="bg-white text-gray-800 py-16 px-6 md:px-20">
+    <section className="bg-white text-gray-800 py-14 lg:py-16">
       <div className="container mx-auto text-left">
         <h2 className="sbttl mb-6">
           Empowering Innovation with Purpose
@@ -36,7 +36,7 @@ At Nexwerx, we believe in building relationships as much as we believe in buildi
 
      
 
-      <div className="text-center mt-20">
+      <div className="text-center mt-10 lg:mt-20">
         <p className="thrdttl text-black mb-6">
           Let’s create what’s next — together.
         </p>

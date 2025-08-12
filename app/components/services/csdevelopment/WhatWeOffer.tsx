@@ -37,7 +37,7 @@ const offers: OfferItem[] = [
 
 const WhatWeOffer: React.FC = () => {
   return (
-    <section className="py-20 bg-gray-100 text-left">
+    <section className="py-14 md:py-20 bg-gray-100 text-left">
       <div className="container mx-auto px-4">
         <div className='mb-12'>
         <h2 className="font-bold sbttl ">What We Offer</h2>
@@ -47,8 +47,8 @@ const WhatWeOffer: React.FC = () => {
 </h4>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {offers.map((item, index) => (
-            <div key={index} className="rounded-2xl p-8 transition-transform hover:-translate-y-2 border border-gray-300">
-              <div className="w-12 h-12 flex items-center justify-center rounded-full mb-4 text-black">
+            <div key={index} className="rounded-2xl p-8 transition-transform hover:-translate-y-2 border border-gray-300 bg-white">
+              <div className="w-12 h-12 flex items-center justify-center rounded-full mb-4 text-secondary">
                 {item.icon}
               </div>
               <h3 className="text-[24px] font-semibold mb-2">{item.title}</h3>

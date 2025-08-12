@@ -2,7 +2,7 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import {assets} from "../../../public/assets/assets"
 import Image from "next/image";
@@ -12,11 +12,11 @@ export default function HeaderOne() {
   const [servicesOpen, setServicesOpen] = useState(false);
 
   const servicesLinks = [
-    { name: "Custom Software Development", href: "/services/custom-software" },
-    { name: "Mobile App Development", href: "/services/mobile-app" },
-    { name: "Online Booking Portals", href: "/services/booking-portals" },
-    { name: "Cloud Solutions", href: "/services/cloud" },
-    { name: "AI & Machine Learning", href: "/services/ai-ml" },
+    { name: "Custom Software Development", href: "/custom-software-development" },
+    { name: "Mobile App Development", href: "/mobile-app-development" },
+    { name: "Online Booking Portals", href: "/online-booking-portals" },
+    { name: "Cloud Solutions", href: "/cloud-solutions" },
+    { name: "AI & Machine Learning", href: "/ai-machine-learning" },
   ];
 
   const navLinks = [
@@ -27,7 +27,7 @@ export default function HeaderOne() {
       href: "#",
       submenu: servicesLinks,
     },
-    { name: "VETERINARY SOFTWARE SOLUTIONS", href: "/vet-software" },
+    { name: "VETERINARY SOFTWARE SOLUTIONS", href: "/veterinary-software-solutions" },
   ];
 
   return (
@@ -96,12 +96,12 @@ export default function HeaderOne() {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 z-50 ${
+        className={`fixed top-0 right-0 h-full w-70 bg-white shadow-lg transform transition-transform duration-300 z-50 flex flex-col justify-between ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex items-center justify-between p-4 border-b">
-          <span className="font-bold text-lg">Menu</span>
+        <div className="flex items-center justify-between p-4 border-b border-gray-200">
+       <Image src={assets.logo} alt="Logo" className="h-8 w-auto" />
           <button
             onClick={() => setMenuOpen(false)}
             aria-label="Close Menu"
@@ -119,12 +119,12 @@ export default function HeaderOne() {
                   className="flex items-center justify-between w-full font-semibold hover::text-secondary"
                 >
                   {link.name}
-                  <ChevronDown
+                 {/*  <ChevronDown
                     size={18}
                     className={`transition-transform ${
                       servicesOpen ? "rotate-180" : ""
                     }`}
-                  />
+                  /> */}
                 </button>
                 {servicesOpen && (
                   <div className="mt-2 ml-4 flex flex-col space-y-2">
@@ -152,20 +152,21 @@ export default function HeaderOne() {
               </Link>
             )
           )}
-          <Link
+      
+        </nav>
+            <Link
             href="/contact"
-            className="px-4 py-2 border rounded-full font-semibold hover:bg-blue-50 transition text-center"
+            className="px-4 py-2 border rounded-full font-semibold hover:bg-blue-50 transition text-center m-3"
             onClick={() => setMenuOpen(false)}
           >
             GET IN TOUCH
           </Link>
-        </nav>
       </div>
 
       {/* Overlay Background */}
       {menuOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-30 z-40"
+          className="fixed inset-0 bg-black/60 backdrop-blur bg-opacity-30 z-40"
           onClick={() => setMenuOpen(false)}
         />
       )}

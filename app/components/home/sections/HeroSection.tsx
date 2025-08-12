@@ -49,7 +49,7 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-4 relative z-20 pt-7">
         <motion.h1
-          className="text-[80px] leading-22 cursor-pointer inline-block text-white duration-100"
+          className="text-[28px] md:text-[60px] xl:text-[80px] leading-9 md:leading-15 xl:leading-22 cursor-pointer inline-block text-white duration-100"
           id="triggerSection"
           initial="hidden"
           whileInView="visible"

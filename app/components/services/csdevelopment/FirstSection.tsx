@@ -3,8 +3,8 @@ import React from 'react'
 
 const FirstSection = () => {
   return (
-    <section className='py-20'>
-  <div className="container grid md:grid-cols-2 gap-16 items-start">
+    <section className='py-14 md:py-20 '>
+  <div className="container grid md:grid-cols-2 gap-12 lg:gap-16 items-start">
         <div>
           <p className="text-gray-600 mb-4">
             At Nexwerx, we believe that software should fit your business — not the other way around.
@@ -16,7 +16,7 @@ const FirstSection = () => {
           <p className="text-gray-600 mb-4">
             Off-the-shelf tools force you to adapt your processes to them. Custom software adapts to you — growing and evolving as your business does.
           </p>
-          <ul className="space-y-3 text-gray-700 list-inside list-disc mb-6">
+          <ul className="space-y-3 text-gray-700 list-inside list-disc mb-0">
             <li>Streamline operations</li>
             <li>
               Improve efficiency
