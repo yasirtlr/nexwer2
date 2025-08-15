@@ -54,10 +54,10 @@ const solutions = [
 
 const VeterinarySolutions = () => {
   return (
-    <section className="py-[80px] px-4 ">
+    <section className="py-[80px]">
       <div className="container">
         <div className='mb-[80px]'>
-           <h2 className='text-[45px] leading-[1.2] mb-5'>Empowering Veterinary Clinics with Integrated, Scalable & Client-Centric Technology</h2>
+           <h2 className='text-[28px] lg:text-[45px] leading-[1.2] mb-5'>Empowering Veterinary Clinics with Integrated, Scalable & Client-Centric Technology</h2>
            <p>At *Nexwerx*, we specialize in building modern, intuitive, and efficient digital solutions tailored to the needs of veterinary clinics and animal hospitals. With deep expertise in veterinary practice workflows and integration with major PIMS (Practice Information Management Systems), we help clinics enhance their operational efficiency, client engagement, and online presence.
 </p>
         </div>
@@ -69,16 +69,16 @@ const VeterinarySolutions = () => {
             <div
               key={idx}
               className={`flex flex-col md:flex-row items-center gap-8 lg:gap-[80px]   ${
-                isEven ? 'md:flex-row-reverse pl-[30px]' : ''
+                isEven ? 'md:flex-row-reverse md:pl-[30px]' : ''
               }`}
             >
               <Image
                 src={item.icon}
                 alt={item.title} width={1000} height={1000}
-                className="w-[40%] h-full"
+                className="w-[100%] md:w-[40%] h-full"
               />
               <div className="flex-1">
-                <h3 className="text-[40px] font-semibold mb-3">{item.title}</h3>
+                <h3 className="text-[23px] md:text-[40px] font-semibold mb-3">{item.title}</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   {item.points.map((point, i) => (
                     <li key={i}>{point}</li>

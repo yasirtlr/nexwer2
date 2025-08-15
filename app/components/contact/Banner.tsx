@@ -4,7 +4,7 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <section className='pb-[100px] pt-[250px] bg-[#f2f2f2] relative overflow-hidden' >
+    <section className='pb-[70px] lg:pb-[100px] pt-[200px] lg:pt-[250px] bg-[#f2f2f2] relative overflow-hidden' >
         <figure className='absolute top-0 bottom-0 z-0 w-full h-full'>
             <Image className='absolute w-full h-full object-cover object-center' src={assets.abtbnr} width={1500} height={800} alt=''/>
         </figure>

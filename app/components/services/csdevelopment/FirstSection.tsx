@@ -17,11 +17,12 @@ const FirstSection = () => {
             Off-the-shelf tools force you to adapt your processes to them. Custom software adapts to you — growing and evolving as your business does.
           </p>
           <ul className="space-y-3 text-gray-700 list-inside list-disc mb-0">
-            <li>Streamline operations</li>
+        
             <li>
               Improve efficiency
              <p> Custom software automates repetitive workflows, eliminates double-entry, and provides seamless access to relevant data.</p>
             </li>
+                <li>Streamline operations</li>
             <li>Enhance customer experience</li>
             <li>Automate repetitive tasks</li>
             <li>Get real-time insights</li>

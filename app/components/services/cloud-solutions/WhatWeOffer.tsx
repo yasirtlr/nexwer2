@@ -17,7 +17,7 @@ const offerings = [
 
 const WhatWeOffer: React.FC = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-100 to-white">
+    <section className="py-14 lg:py-20 bg-gradient-to-b from-gray-100 to-white">
       <div className="container mx-auto px-4">
         {/* Title */}
         <div className="text-center mb-14">

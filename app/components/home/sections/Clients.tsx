@@ -34,7 +34,7 @@ export const Clientsdata = [
 ]
 const Clients = () => {
   return (
-    <section className="section-spacing ">
+    <section className="py-10 lg:py-20 ">
     <div className="container mx-auto px-4">
       <div className="flex flex-col ">
         {/* <motion.div

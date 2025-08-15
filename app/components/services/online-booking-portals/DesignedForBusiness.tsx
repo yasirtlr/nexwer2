@@ -11,7 +11,7 @@ const industries = [
 
 const DesignedForBusiness: React.FC = () => {
   return (
-    <section className="py-20 bg-gray-100">
+    <section className="py-14 lg:py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         {/* Header Section */}
         <div className="text-center mb-16 ">
