@@ -17,15 +17,15 @@ const offerings = [
 
 const WhatWeOffer: React.FC = () => {
   return (
-    <section className="py-14 lg:py-20 bg-gradient-to-b from-gray-100 to-white">
+    <section className="py-10 lg:py-20 bg-gradient-to-b from-gray-100 to-white">
       <div className="container mx-auto px-4">
         {/* Title */}
-        <div className="text-center mb-14">
+        <div className="text-center lg:mb-14">
           <h2 className="sbttl mb-4">What We Offer</h2>
         </div>
 
         {/* Offerings Grid */}
-        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid gp-3 lg:gap-6 sm:grid-cols-2 md:grid-cols-3">
           {offerings.map((item, index) => (
             <div
               key={index}

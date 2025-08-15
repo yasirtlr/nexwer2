@@ -4,7 +4,7 @@ import React from "react";
 
 const NexwerxIntro = () => {
   return (
-    <section className="bg-white text-gray-800 pt-14 lg:pt-16">
+    <section className="bg-white text-gray-800 pt-10 lg:pt-16">
       <div className="container mx-auto text-left">
         <h2 className="sbttl mb-6">Empowering Innovation with Purpose</h2>
         <p className="mb-4 text-gray-600">

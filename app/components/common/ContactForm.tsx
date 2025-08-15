@@ -33,7 +33,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="w-full lg:px-6 py-14 lg:py-20 bg-white md:px-12">
+    <div className="w-full lg:px-6 pt-10 lg:pt-20 bg-white md:px-12">
       <div className="container mx-auto flex flex-col md:flex-row gap-12">
         {/* Left Side */}
         <div className="md:w-1/2">

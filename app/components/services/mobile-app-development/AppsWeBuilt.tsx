@@ -17,15 +17,15 @@ const apps = [
 
 const AppsWeBuilt: React.FC = () => {
   return (
-    <section className="py-14 lg:py-20 bg-gray-100">
-      <div className="container mx-auto px-4">
+    <section className="py-10 lg:py-20 bg-gray-100">
+      <div className="container mx-auto">
         {/* Heading */}
-        <div className="text-center mb-16">
+        <div className="text-center lg:mb-16">
           <h2 className="sbttl mb-6">Apps We’ve Built</h2>
         </div>
 
         {/* Apps List */}
-        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid gap-3 lg:gap-6 sm:grid-cols-2 md:grid-cols-3">
           {apps.map((item, index) => (
             <div
               key={index}

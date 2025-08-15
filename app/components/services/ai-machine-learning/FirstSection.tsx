@@ -3,7 +3,7 @@ import React from "react";
 
 const FirstSection = () => {
   return (
-    <section className="py-14 lg:py-20">
+    <section className="py-10 lg:py-20">
       <div className="container grid md:grid-cols-2 gap-5 lg:gap-15 items-start">
         <div>
           <h3 className="thrdttl mb-5">

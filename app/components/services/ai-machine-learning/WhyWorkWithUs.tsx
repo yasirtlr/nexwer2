@@ -15,11 +15,11 @@ const benefits = [
 
 const WhyWorkWithUs: React.FC = () => {
   return (
-    <section className="py-14 lg:py-20 bg-gray-100">
+    <section className="py-10 lg:py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         {/* Title + Description */}
         <div className="text-center  mb-5 lg:mb-14">
-          <h2 className="text-4xl font-bold mb-4">Why Work With Us?</h2>
+          <h2 className="text-[28px] lg:text-[35px] font-bold mb-4">Why Work With Us?</h2>
           <p className="text-gray-700 text-base">
             We don&apos;t just plug in algorithms. We take time to understand your data, your challenges, and your goals, then craft a solution that fits your workflow — and keeps learning as you grow.
           </p>

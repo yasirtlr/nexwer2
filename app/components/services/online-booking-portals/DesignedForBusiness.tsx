@@ -11,10 +11,10 @@ const industries = [
 
 const DesignedForBusiness: React.FC = () => {
   return (
-    <section className="py-14 lg:py-20 bg-gray-100">
-      <div className="container mx-auto px-4">
+    <section className="py-10 lg:py-20 bg-gray-100">
+      <div className="container mx-auto lg:px-4">
         {/* Header Section */}
-        <div className="text-center mb-16 ">
+        <div className="text-center  lg:mb-16 ">
           <h2 className="sbttl font-bold mb-6">Designed for Your Business</h2>
           <p className="text-md text-gray-700">
             We don’t use one-size-fits-all templates. We craft booking systems that match your brand, your
@@ -23,9 +23,9 @@ const DesignedForBusiness: React.FC = () => {
         </div>
 
         {/* Industry List */}
-        <div className="text-center mb-8">
+        <div className="text-center">
           <h3 className="thrdttl mb-6">Industries We Serve</h3>
-          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+          <div className="grid gap-3  lg:gap-6 sm:grid-cols-2 md:grid-cols-3">
             {industries.map((item, index) => (
               <div
                 key={index}

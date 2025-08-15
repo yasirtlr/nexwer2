@@ -54,7 +54,7 @@ const solutions = [
 
 const VeterinarySolutions = () => {
   return (
-    <section className="py-[80px]">
+    <section className="py-10 lg:py-20"> 
       <div className="container">
         <div className='mb-[80px]'>
            <h2 className='text-[28px] lg:text-[45px] leading-[1.2] mb-5'>Empowering Veterinary Clinics with Integrated, Scalable & Client-Centric Technology</h2>

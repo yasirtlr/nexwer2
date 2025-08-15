@@ -3,7 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 
 const Whatsapp = () => {
   return (
-    <section className='py-14 lg:py-20'> 
+    <section className='py-10 lg:py-20'> 
     <div className='container'>
    <div className="bg-gray-100 p-6 rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>

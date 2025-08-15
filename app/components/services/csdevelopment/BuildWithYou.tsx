@@ -19,11 +19,11 @@ const solutions = [
 
 const BuildWithYou: React.FC = () => {
   return (
-    <section className="py-20  bg-gradient-to-t from-gray-200">
-      <div className="container mx-auto px-4">
+    <section className="py-10 lg:py-20  bg-gradient-to-t from-gray-200">
+      <div className="container mx-auto">
         {/* Intro Section */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-6">We Build For You — and With You</h2>
+          <h2 className="text-[26px] lg:text-[35px] font-bold mb-6">We Build For You — and With You</h2>
           <p className="text-md text-gray-700 mx-auto">
             Our clients often say we feel more like a partner than a vendor. That’s because we care —
             about your business outcomes, your user experience, your team, and your vision. Every project
