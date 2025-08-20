@@ -46,16 +46,21 @@ p:not(:last-child) {
 .thrdttl {
 @apply text-[18px] lg:text-[30px] font-semibold ;
 }
-/* @media (prefers-color-scheme: dark) {
-  :root {
+@media (prefers-color-scheme: dark) {
+  /* :root {
   --primary: #023a53;
   --secondary: #06afda;
   }
   @theme inline {
   --color-primary: var(--primary)
   --color-secondary: var(--secondary)
-  }
-} */
+  } */
+   body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans)
+   }
+}
 /* body {
   background: var(--background);
   color: var(--foreground);
