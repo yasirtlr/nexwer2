@@ -11,7 +11,7 @@ const menuItems = [
     url: "/",
   },
   {
-    item: "ABOUT",
+    item: "About",
     url: "/about",
   },
   {
