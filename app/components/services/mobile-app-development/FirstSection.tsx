@@ -20,8 +20,8 @@ const FirstSection = () => {
 
           </p>
            <h2 className="thrdttl mt-5">Our Process</h2>
-          <ul className="space-y-3 text-gray-700 list-inside list-disc mb-6">
-            <li>Understand your goals</li>
+          <ul className="space-y-3 text-gray-700 list-outside list-disc mb-6 ml-5">
+                        <li>Understand your goals</li>
  <li>Design for real-world use </li>
  <li>Develop with performance in mind</li>
  <li>Test, launch, and support

@@ -58,7 +58,7 @@ const VeterinarySolutions = () => {
       <div className="container">
         <div className='mb-[80px]'>
            <h2 className='text-[28px] lg:text-[45px] leading-[1.2] mb-5'>Empowering Veterinary Clinics with Integrated, Scalable & Client-Centric Technology</h2>
-           <p>At *Nexwerx*, we specialize in building modern, intuitive, and efficient digital solutions tailored to the needs of veterinary clinics and animal hospitals. With deep expertise in veterinary practice workflows and integration with major PIMS (Practice Information Management Systems), we help clinics enhance their operational efficiency, client engagement, and online presence.
+           <p>At Nexwerx, we specialize in building modern, intuitive, and efficient digital solutions tailored to the needs of veterinary clinics and animal hospitals. With deep expertise in veterinary practice workflows and integration with major PIMS (Practice Information Management Systems), we help clinics enhance their operational efficiency, client engagement, and online presence.
 </p>
         </div>
       <h2 className="text-3xl font-bold text-left mb-10">🐾 What We Offer</h2>
@@ -68,7 +68,7 @@ const VeterinarySolutions = () => {
           return (
             <div
               key={idx}
-              className={`flex flex-col md:flex-row items-center gap-8 lg:gap-[80px]   ${
+              className={`flex flex-col md:flex-row md:items-center gap-8 lg:gap-[80px]   ${
                 isEven ? 'md:flex-row-reverse md:pl-[30px]' : ''
               }`}
             >
@@ -79,7 +79,7 @@ const VeterinarySolutions = () => {
               />
               <div className="flex-1">
                 <h3 className="text-[23px] md:text-[40px] font-semibold mb-3">{item.title}</h3>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                <ul className="list-disc list-outside text-gray-700 space-y-1 ml-5">
                   {item.points.map((point, i) => (
                     <li key={i}>{point}</li>
                   ))}

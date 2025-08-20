@@ -24,7 +24,7 @@ const FirstSection = () => {
      With our custom-built portals, you get:
 </p>
 
-          <ul className="space-y-3 text-gray-700 list-inside list-disc mb-6">
+          <ul className="space-y-3 text-gray-700 list-outside list-disc mb-6 ml-5">
             <li>24/7 self-service booking</li>
  <li>Instant confirmations and reminders</li>
  <li>Calendar sync and availability management</li>

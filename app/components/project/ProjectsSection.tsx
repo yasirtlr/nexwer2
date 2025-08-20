@@ -48,7 +48,7 @@ const ProjectsSection: React.FC = () => {
               <h3 className="text-[45px] leading-[1.1] font-semibold mb-2 flex items-center gap-2 mb-[30px]">
                 Custom Tech Suite for a Multi-Branch Veterinary Hospital
               </h3>
-              <ul className="text-gray-600 list-disc list-inside space-y-2">
+              <ul className="text-gray-600 list-disc list-outside space-y-2 ml-5">
                 <li>A fully custom appointment booking portal</li>
                 <li>Automated reminder system for appointments, vaccinations, and follow-ups</li>
                 <li>A PACS integration for efficient imaging workflow</li>

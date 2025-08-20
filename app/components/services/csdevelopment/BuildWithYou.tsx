@@ -34,7 +34,7 @@ const BuildWithYou: React.FC = () => {
         {/* Solutions List */}
         <div>
           <h3 className="sbttl mb-6 text-center">Solutions We’ve Built</h3>
-          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+          <div className="grid gap-3 lg:gap-6 sm:grid-cols-2 md:grid-cols-3">
             {solutions.map((item, index) => (
               <div
                 key={index}

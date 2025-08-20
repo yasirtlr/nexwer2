@@ -45,7 +45,7 @@ const WhatWeOffer: React.FC = () => {
         </div>
         <h4 className='text-md font-semibold mb-5'>Here’s what you can expect:
 </h4>
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-3 lg:gap-6 md:grid-cols-2 lg:grid-cols-3">
           {offers.map((item, index) => (
             <div key={index} className="rounded-2xl p-5 slg:p-8 transition-transform hover:-translate-y-2 border border-gray-300 bg-white">
               <div className="w-12 h-12 flex items-center justify-center rounded-full mb-4 text-secondary mbxs">

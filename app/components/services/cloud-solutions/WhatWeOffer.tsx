@@ -25,7 +25,7 @@ const WhatWeOffer: React.FC = () => {
         </div>
 
         {/* Offerings Grid */}
-        <div className="grid gp-3 lg:gap-6 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid gap-3 lg:gap-6 sm:grid-cols-2 md:grid-cols-3">
           {offerings.map((item, index) => (
             <div
               key={index}

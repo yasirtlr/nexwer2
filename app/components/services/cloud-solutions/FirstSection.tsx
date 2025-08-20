@@ -22,7 +22,7 @@ const FirstSection = () => {
             working. With our tailored cloud solutions, you can:
           </p>
 
-          <ul className="space-y-3 text-gray-700 list-inside list-disc mb-6">
+          <ul className="space-y-3 text-gray-700 list-outside list-disc mb-6 ml-5">
             <li>Access your systems and data from anywhere</li>
             <li>Collaborate in real-time </li>
             <li>Reduce infrastructure costs</li>

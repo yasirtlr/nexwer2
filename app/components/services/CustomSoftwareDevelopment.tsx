@@ -25,7 +25,7 @@ const CustomSoftwareDevelopment: React.FC = () => {
         </p>
 
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Solutions We’ve Built</h2>
-        <ul className="grid sm:grid-cols-2 gap-4 text-gray-700 list-disc pl-6 mb-6">
+        <ul className="grid sm:grid-cols-2 gap-4 text-gray-700 list-outside list-disc ml-5 mb-6">
           <li>Business process automation tools</li>
           <li>Custom CRM and ERP systems</li>
           <li>Inventory and warehouse management</li>

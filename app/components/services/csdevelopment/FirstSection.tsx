@@ -16,7 +16,7 @@ const FirstSection = () => {
           <p className="text-gray-600 mb-4">
             Off-the-shelf tools force you to adapt your processes to them. Custom software adapts to you — growing and evolving as your business does.
           </p>
-          <ul className="space-y-3 text-gray-700 list-inside list-disc mb-0">
+          <ul className="space-y-3 text-gray-700 list-outside list-disc mb-0 ml-5">
         
             <li>
               Improve efficiency

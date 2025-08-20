@@ -30,7 +30,7 @@ const FirstSection = () => {
             working. With our tailored cloud solutions, you can:
           </p>
 
-          <ul className="space-y-3 text-gray-700 list-inside list-disc mb-6">
+          <ul className="space-y-3 text-gray-700 list-outside list-disc mb-6 ml-5">
             <li>Predictive analytics and forecasting tools</li>
             <li>Recommendation engines</li>
             <li>Image and voice recognition solutions</li>
